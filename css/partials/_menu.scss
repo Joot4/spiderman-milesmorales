@@ -24,19 +24,28 @@ header {
 .nav-list{
   list-style: none;
   display: flex;
-  margin-left: 50px;
+  margin-left: 20px;
   
 
-  li{
+  li {
     margin-left: 26px;
   }
+
 }
+
+.flex-center{
+  display: flex;
+  align-items: center;
+}
+
+
+
 
 .nav-link {
   display:inline-block;
  color: $gray-3;
 
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 2px;
   text-decoration: uppercase;
   font-weight: 200;
