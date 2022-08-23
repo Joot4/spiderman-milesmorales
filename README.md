@@ -6,7 +6,7 @@
     <img src="img/Capa.png">
 </h1>
 
-<h3 align="center">Você pode acessar o projeto <a href="/" target="_blank">clicando aqui</a></h3>
+<h3 align="center">Você pode acessar o projeto <a href="spiderman-miles-morales-ps5.netlify.app" target="_blank">clicando aqui</a></h3>
 
 
 # Sobre o projeto
