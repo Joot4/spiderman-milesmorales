@@ -33,4 +33,4 @@
 $ git clone https://github.com/Joot4/spiderman-milesmorales.git
 ---
 
-<p align="center"> Desenvolvido por <a href="">Junior Almeida</a> ✌🏼</p>
+<p align="center"> Desenvolvido por <a href="https://www.linkedin.com/in/junior-almeida-b2a86970/">Junior Almeida</a> ✌🏼</p>
