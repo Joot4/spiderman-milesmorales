@@ -144,6 +144,7 @@ header {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  overflow: none;
   height: 85vh;
   padding: 36px 16px;
   display: flex;
@@ -154,6 +155,7 @@ header {
   .container {
     flex-direction: column;
     height: auto;
+    overflow: hidden;
   }
 }
 
@@ -165,7 +167,7 @@ header {
 }
 
 .spiderman {
-  width: 140%;
+  width: 120%;
   transform: translate3d(-170px, 0, 0);
 }
 @media screen and (max-width: 960px) {
@@ -250,6 +252,29 @@ header {
 }
 .btn-secondary:hover::after {
   width: 101%;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-video::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background: linear-gradient(101.47deg, #0A0C10 26.38%, rgba(10, 12, 16, 0.8) 50.07%, #0A0C10 73.17%);
 }
 
 .s-0 {
