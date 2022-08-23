@@ -6,7 +6,7 @@
     <img src="img/Capa.png">
 </h1>
 
-<h3 align="center">Você pode acessar o projeto <a href="" target="_blank">clicando aqui</a></h3>
+<h3 align="center">Você pode acessar o projeto <a href="/" target="_blank">clicando aqui</a></h3>
 
 
 # Sobre o projeto
@@ -30,10 +30,7 @@
 
 ```bash
 # Clonar o repositório
-$ git clone https://github.com/wellingtonrodriguesbr/spider-man-miles-morales-website.git
-
-```
-
+$ git clone https://github.com/Joot4/spiderman-milesmorales.git
 ---
 
-<p align="center"> Desenvolvido por <a href="https://www.linkedin.com/in/wellingtonrodriguesbr/">Wellington Rodrigues</a> ✌🏼</p>
+<p align="center"> Desenvolvido por <a href="">Junior Almeida</a> ✌🏼</p>

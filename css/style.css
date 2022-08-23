@@ -290,6 +290,11 @@ li {
   opacity: 1;
 }
 
+@media screen and (max-width: 700px) {
+  .btn {
+    padding: 2px 8px;
+  }
+}
 .btn-secondary {
   display: inline-block;
   padding: 10px 32px;
@@ -318,6 +323,11 @@ li {
   width: 101%;
 }
 
+@media screen and (max-width: 700px) {
+  .btn-secondary {
+    padding: 2px 8px;
+  }
+}
 .bg-video {
   position: absolute;
   top: 0;
