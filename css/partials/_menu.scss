@@ -31,6 +31,9 @@ header {
     margin-left: 26px;
   }
 
+  @include responsive(){
+    display: none;
+  }
 }
 
 .flex-center{
@@ -83,6 +86,19 @@ header {
     }
 }
 
+.bx {
+  display: none;
+
+  @include responsive(){
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    
+    background-color: $white; 
+  }
+}
+
 .nav-social{
   display: flex;
     svg{
@@ -99,6 +115,8 @@ header {
         }
       }
     }
-
+    @include responsive(){
+      display: none;
+    }
 }
 

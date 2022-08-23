@@ -6,13 +6,16 @@
 
   // overflow: hidden;
 
-  border: 1px solid red;
   height: 85vh;
 
   padding: 36px 16px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  @include responsive(){
+    flex-direction: column;
+    height: auto;
+  }
 }
 
 .container-item-1{
@@ -29,6 +32,11 @@
   width: 140%;
 
   transform: translate3d(-170px, 0 , 0 );
+
+  @include responsive(){
+    width: 100%;
+    transform: translate3d(0,0,0);
+  }
 }
 
 .btn {
